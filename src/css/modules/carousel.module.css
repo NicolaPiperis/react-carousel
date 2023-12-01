@@ -1,0 +1,12 @@
+.active{
+    display: block;
+    @apply h-96 w-96 mt-16 overflow-hidden
+}
+
+.activeButton{
+   @apply flex justify-center items-center h-10 w-10 bg-red-400 font-semibold rounded 
+}
+
+.hidden{
+    display: none;
+}
